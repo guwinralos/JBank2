@@ -28,7 +28,7 @@ public class App extends Application {
 
         vbox.getChildren().addAll(btnRegistro, btnLogin);
 
-        Scene scene = new Scene(vbox, 300, 200);
+        Scene scene = new Scene(vbox, 300, 200) ;
         primaryStage.setScene(scene);
         primaryStage.show();
     }
